@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/InformationTextView"
+        style="@style/InformationStyle"
+        android:fontFamily="sans-serif-small"
+        android:textColor="@color/information_text_view"
+        tools:text="Information" />
+
+    <TextView
+        android:id="@+id/AuthorNameTextView"
+        style="@style/AuthorStyle"
+        android:fontFamily="sans-serif-small"
+        android:textStyle="italic"
+        android:textColor="@color/other_text_view"
+        tools:text="Author" />
+
+    <TextView
+        android:id="@+id/TitleTextView"
+        style="@style/TitleStyle"
+        android:fontFamily= "sans-serif"
+        android:textStyle="normal"
+        android:textColor="@color/title_text_view"
+        android:gravity="right"
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/DateTextView"
+        style="@style/DateStyle"
+        android:fontFamily="sans-serif-small"
+        android:textColor="@color/other_text_view"
+        tools:text="Date"
+        android:gravity="right"/>
+
+
+</LinearLayout>

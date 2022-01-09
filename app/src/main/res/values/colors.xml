@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Color for Title Text -->
+    <color name="title_text_view">#B71C1C</color>
+
+    <!-- Color for Information Text -->
+    <color name="information_text_view">#212121</color>
+
+    <!-- Color for Author & Date Text -->
+    <color name="other_text_view">#757575</color>
+</resources>
